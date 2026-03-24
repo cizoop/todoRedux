@@ -22,7 +22,7 @@ export const todoSlice = createSlice({
     },
 
     markAsDone: (state, action) => {
-      state.todos = state.todos.find((t) => t.id === action.payload);
+      let todo= state.todos.find((t) => t.id === action.payload);
       if (todo) {
         todo.isDone = true;
       }

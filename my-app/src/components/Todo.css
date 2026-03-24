@@ -1,0 +1,13 @@
+ ul li {
+        padding: 5px;
+        cursor: pointer;
+        list-style-type: none;
+    }
+ .done {
+   color: red;
+   text-decoration: line-through;
+  }
+  /* Style for not done items */
+  .not-done {
+        color: green;
+    }
